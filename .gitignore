@@ -77,3 +77,24 @@ obj/
 .parcel-cache/
 .turbo/
 .eslintcache
+
+# --- added by init-backup.ps1 ---
+# --- secrets and environment ---
+*.p12
+id_rsa*
+credentials*
+*secret*
+# --- tool session/backup data (not project artifacts) ---
+*-backup-*/
+*-backup-*
+storages/
+sessions/
+# --- dependencies and build output ---
+*.pyc
+*.o
+*.obj
+*.exe
+*.dll
+# --- OS / editor junk ---
+ehthumbs.db
+~$*
